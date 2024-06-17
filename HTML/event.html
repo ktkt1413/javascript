@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            width: 150px;
+            height: 40px;
+            border: 1px solid gray; 
+            text-align: center;
+            line-height: 40px;
+            display: inline-block;   
+        }
+        .blank{
+            width: 600px;
+            height: 600px;
+            background-color: rgb(255, 221, 226);
+        } */
+        
+    #wrap{
+        width: 500px;
+        margin: auto;
+    }
+    img{
+        width: 100%;
+    }
+    .over{
+        position: absolute; 
+        left: 10px;
+        bottom: 10px;
+    }
+    .relative{
+        position: relative;
+    }
+    #desc{
+        display: none;
+    }
+    
+    </style>
+    <script src="event.js"></script>
+</head>
+<body>
+    
+<!--     <ul>
+        <li onclick="changeBg('green')">Green</li>
+        <li onclick="changeBg('orange')">Orange</li>
+        <li onclick="changeBg('purple')">Purple</li>
+    </ul>
+    <div class="blank" id="result">
+    </div> -->
+    <div id="wrap">
+        <div class="relative">
+            <img src="https://cdn.pixabay.com/photo/2018/12/17/10/18/iceland-3880104_1280.jpg" alt="이미지">
+            <button class="over" id="open" onclick="openDesc()">상세설명 보기</button>
+        </div>
+        <div id="desc" class="detail">
+            <p>대한의사협회(의협)가 오는 18일 예정된 집단휴진과 관련해 정부에 대화를 촉구했다. 정부의 입장 변화가 나타나지 않으면 집단휴진을 막을 수 없을 것이란 지적이다.
+
+                최안나 의협 대변인은 13일 브리핑을 통해 "의료계는 대화 창구를 의협으로 통일하고 하나로 움직이겠다고 뜻을 모았는데 정부는 지금 이 순간에도 의협을 제외한 다른 단체와 개별적으로 접촉하고 있다"며 "의협을 빼고 문제를 해결하겠다는 잘못된 생각을 버리고 사태를 조속히 해결할 방안을 의협과 논의해주길 바란다"고 말했다.
+                
+                서울의대와 서울대병원 교수들이 오는 17일부터 무기한 휴진하고 오는 18일 의료계 집단휴진이 예정된 점을 감안, 이번 주말까지가 문제 해결을 위한 골든타임이 될 것으로 최 대변인은 예상했다. 이 기간 정부가 기존 입장을 유지한 채 의협과 대화하지 않을 경우 집단휴진을 막을 수 없을 것이란 의미다.
+                
+                최 대변인은 "비록 시간이 얼마 남지 않았지만 의협을 중심으로 모든 의료계는 사태의 조속한 해결을 위해 방법을 찾겠다"며 "이제는 정부가 답을 주실 시간"이라고 말했다.
+                
+                의협은 이번 집단휴진 계획이 정부 정책에서 비롯됐다는 점을 재차 강조하기도 했다. 환자에게 피해를 줄 의도는 없었다는 설명이다.
+                
+                최 대변인은 "정부의 잘못된 정책을 바로잡기 위해 집단휴진을 하는 것이지 국민에게 해를 주고자 하는 게 아니다"라며 "진료가 예정된 환자들에게 피해가 없도록 주치의들이 미리 조치할 것이니 염려하지 말라"고 언급했다. 그러면서 "걱정되고 궁금한 점은 다니고 있는 병·의원에 문의하길 바란다"고 부연했다.</p>
+            <button id="close" onclick="closeDesc()">설명 닫기</button>
+        </div>
+    </div>
+</body>
+</html>

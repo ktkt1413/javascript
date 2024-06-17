@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*녹아내리는 글꼴*/
+@font-face {
+    font-family: 'ClimateCrisisKR-1979';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKR-1979.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*별빛체 글꼴*/
+@font-face {
+    font-family: 'MangoByeolbyeol';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoByeolbyeol.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/*또박체 글꼴*/
+@font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*영어 글꼴*/
+@font-face {
+    font-family: 'MoveSans-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/MoveSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
