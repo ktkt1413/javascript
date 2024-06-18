@@ -1,11 +1,9 @@
-import { Fragment } from "react/jsx-runtime";
-
 const App = () => {
-  return(
-    <Fragment>
-      <h1>여기는 쇼핑몰입니다.</h1>
-    </Fragment>
+  return (
+    <>
+      <h1>여기는 쇼핑몰 입니다.</h1>
+    </>
   );
-}
+};
 
 export default App;
